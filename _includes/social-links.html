@@ -53,6 +53,11 @@
         </a>
     {% endif %}
 
+    {% if site.stack %}
+        <a class="link" data-title="stackoverflow.com/users/{{ site.stackId }}/{{ site.stack }}" href="http://stackoverflow.com/users/{{ site.stackId }}/{{ site.stack }}" target="_blank">
+            <svg class="icon icon-stack"><use xlink:href="#icon-stack"></use></svg>
+        </a>
+    {% endif %}
     {% if site.medium %}
         <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
             <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>

@@ -1,12 +1,12 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Ignacio Ferreras Astorqui
+bio: Computer Engineering - Data Analyst <br> Full Stack Software Developer
 
 # if it's an external image, update below for true
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://koppl.in/indigo
+url: http://nachoferre.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -22,20 +22,22 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: nachoferreras93
+# twitter: mytwitter
 # google: mygoogle
-# instagram: myinstagram
+instagram: nachoferreras
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-email: myemail@gmail.com
+linkedin: IgnacioFerrerasAstorqui
+# youtube: myyoutube
+# spotify: myspotify
+github: nachoferre
+stack: ignaciof
+stackId: 6267450
+# medium: medium
+email: nachoferreras93@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -51,16 +53,16 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+#read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+# show-tags: true
 
 # related posts inside a post?
-related: true
+# related: true
 
 # do you want some animations?
 animation: true
