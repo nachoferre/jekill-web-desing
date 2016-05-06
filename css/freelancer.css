@@ -3,7 +3,18 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
+ @font-face {
+     font-family: "Infinity";
+     src: url("../fonts/Infinity.ttf");
+ }
+ @font-face {
+     font-family: "Capsule";
+     src: url("../fonts/Capsule.otf");
+ }
+ @font-face {
+     font-family: "Steelworks";
+     src: url("../fonts/Steelworks.ttf");
+ }
 body {
   overflow-x: hidden;
 }
@@ -13,12 +24,15 @@ p {
 p.small {
   font-size: 16px;
 }
-a,
+a{
+  color: #2196F3;
+  outline: none;
+}
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18bc9c;
+  color: #ff5722;
   outline: none;
 }
 h1,
@@ -27,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Infinity;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -73,37 +87,41 @@ header {
   color: black;
 }
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 header img {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  padding-bottom: 30px;
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-family: Steelworks;
+  font-weight: 400;
   font-size: 2em;
 }
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-@media (min-width: 768px) {
+@media (min-width: 450px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 3em;
   }
   header .intro-text .skills {
-    font-size: 1.75em;
+    font-size: 1em;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 10%) {
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -111,7 +129,7 @@ header .intro-text .skills {
     transition: padding 0.3s;
   }
   .navbar-fixed-top .navbar-brand {
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -124,8 +142,10 @@ header .intro-text .skills {
   }
 }
 .navbar {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Capsule;
   text-transform: uppercase;
+  background-color: #fff;
+  color: #27AE60;
   font-weight: 700;
 }
 .navbar a:focus {
@@ -157,7 +177,7 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #27AE60;
+  color: #ff5722;
   outline: none;
 }
 @media (max-width: 767px) {
